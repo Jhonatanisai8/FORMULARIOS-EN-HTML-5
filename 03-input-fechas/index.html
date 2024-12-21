@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inpust para las fechas.</title>
+  </head>
+  <body>
+    <header>
+      <h1>Inpust para las fechas</h1>
+    </header>
+
+    <main>
+      ¨
+      <h2>Ejemplo de input para las fechas:</h2>
+      <form>
+        <!-- para la fecha -->
+        <div>
+          <label for="fecha_nacimient">Tu fecha de Nacimiento es: </label>
+          <input type="date" name="fecha_nacimiento" id="fecha_nacimiento" />
+        </div>
+
+        <!-- para la fecha y hora -->
+        <div>
+          <label for="fecha_hora">Fecha y hora del cumpleaños: </label>
+          <input type="datetime-local" name="fecha_hora" id="fecha_hora" />
+        </div>
+
+        <!-- para seleccinar la fecha -->
+        <div>
+          <label for="fecha_aniversario">Fecha Aniversario: </label>
+          <input type="date" name="fecha_aniversario" id="fecha_aniversario" />
+        </div>
+
+        <!-- para seleccinar la hora -->
+        <div>
+          <label for="hora_aniversario">Hora Aniversario: </label>
+          <input type="time" name="hora_aniversario" id="hora_aniversario" />
+        </div>
+
+        <!-- para seleccionar un mes  -->
+        <div>
+          <label for="mes_cumpleaños">Selecciona tu mes de cumpleaños: </label>
+          <input type="month" name="mes_cumpleaños" id="mes_cumpleaños" />
+        </div>
+
+        <!-- para seleccionar las semanas  -->
+        <div>
+          <label for="semana_clase">La semana de clase empieza: </label>
+          <input type="week" name="semana_clase" id="semana_clase" />
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+  </body>
+</html>
